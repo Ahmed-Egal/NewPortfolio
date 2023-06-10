@@ -1,6 +1,5 @@
-
-body{
-  background-color: 
+html{
+  scroll-behavior:smooth;
 }
 #Home{
     background-color: #253342;
@@ -36,10 +35,15 @@ hr.solid {
     border-top: 8px solid #253342;
     
   }
+  #homep{
+    color: red;
+  }
   h3{
-    text-align: center;
+    margin-top: 40px;
+    text-align: left;
     font-family:  serif;
-    color: ;
+    color: #f9bd2e; 
+    
   }
   .talk{
     margin-top: 30px;
@@ -47,4 +51,3 @@ hr.solid {
     font-family: gill sans;
   }
 
-    
