@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+<!-- start of the navigation-->
         <nav id="nav-bar">
             <li class="nav-list"><a href="#Home">Home</a></li>
             <li class="nav-list"><a href="#About">About</a></li>
@@ -14,17 +15,20 @@
             <li class="nav-list"><a href="#Contact">Contact</a></li>
         </nav>
         <hr class="solid">
+        <div class="content-container">
         <section id="Home">
-            <h1>Hello i am Ahmed</h1>
-            <p id="homep">A full-stack web developer</p>
+            <h1 class="content-container"> Hi! 👋  — My name is Ahmed Egal</h1>
+            <p id="homep" class="content-container">A full-stack web developer</p>
         </section>
+        </div>
+<!--Introduction section where i want to give a brief talk about my journey-->
         <section id="About">
             <h3>A BRIEF INTRODUCTION</h3>
             <p class="talk">I'm Ahmed Egal, a passionate full stack web developer with expertise in cutting-edge technology. I strive to create innovative web solutions that meet the needs of modern businesses and individuals.
             With a strong foundation in front-end and back-end development, I specialize in HTML, CSS, JavaScript, and frameworks like React.js and Node.js. My goal is to build robust and responsive web applications.</p>
             <p class="talk">Collaboration and effective communication are at the core of my work. I thrive in team environments, valuing the exchange of ideas. Additionally, I excel at managing projects independently, ensuring high-quality deliverables from start to finish.</p>
             <p class="talk">Thank you for visiting my portfolio. I'm excited to take on new challenges, collaborate on projects, and contribute to the ever-evolving world of web development. Feel free to reach out to me if you have any questions or potential opportunities.</p>
-           
+           <!--Talk about my skills , make it short-->
         </section>
         <section id="Skills">
             <h3>CAREER HIGHLIGHTS </h3>
@@ -33,16 +37,38 @@
             </p>
             <p class="talk">React has been an instrumental tool in my web development projects. One notable project involved developing a dynamic e-commerce platform. Using React, I was able to build an intuitive user interface that provided seamless navigation and enhanced user experience. The framework's component-based architecture allowed for modularity and reusability, enabling efficient development and future scalability. I implemented state management with Redux, ensuring smooth data flow throughout the application. React's virtual DOM and efficient rendering mechanism contributed to optimal performance, even when dealing with large data sets. This project demonstrated the applicability of React in building complex and interactive web applications.</p>
             <p class="talk">Another language I have extensively worked with is Angular. In a recent project, I was tasked with developing a data analytics dashboard for a financial services company. Leveraging Angular's robust framework, I designed a scalable and responsive user interface that facilitated data visualization and analysis. Angular's powerful dependency injection system and modular structure allowed for efficient code organization and maintenance. I utilized Angular Material's UI components to create a consistent and aesthetically pleasing design. Through this project, I showcased my ability to leverage Angular's extensive ecosystem and features to create sophisticated applications that meet specific business requirements.</p>
+         
             <p class="talk">
-                In addition to web development, I have utilized Python to solve a range of problems, from data analysis to automation. One notable project involved developing a sentiment analysis tool for social media data. Using Python's natural language processing libraries and machine learning algorithms, I designed a system that accurately classified sentiments expressed in a large dataset of tweets. Python's extensive libraries and ecosystem, such as NLTK and scikit-learn, enabled efficient text processing and model training. This project showcased the practical application of Python in extracting valuable insights from unstructured data and making informed business decisions.
-            </p>
-            <p class="talk">
-                Overall, my experience with React, Angular, and Python has equipped me with a versatile skill set to tackle diverse challenges. These projects have demonstrated the applicability of these languages and frameworks in solving complex problems and delivering impactful solutions. I am excited to continue expanding my knowledge and exploring new technologies to further enhance my problem-solving abilities and create innovative solutions for future projects.
+                Overall, my experience with React and Angular has equipped me with a versatile skill set to tackle diverse challenges. These projects have demonstrated the applicability of these languages and frameworks in solving complex problems and delivering impactful solutions. I am excited to continue expanding my knowledge and exploring new technologies to further enhance my problem-solving abilities and create innovative solutions for future projects.
 
 
             </p>
+            <!--Was planning to add abit more styling , very bland for now-->
+            <div class="grid-container images">
+               <a  href="https://chat.openai.com/c/76d1e2e6-e3bf-4870-a1f2-c04262d57a39" target="_blank"><img src="./images/coding-portfolio.avif" alt="Image 1" ></a>
+                
+                <img src="./images/coding2.avif" alt="Image 2">
+                <img src="./images/coding3.avif" alt="Image 3">
+                <img src="./images/coding4.avif" alt="Image 4">
+              </div>
         </section>
-        <section id="Contact"></section>
-        <footer></footer>
+        <section id="Contact">
+            <h3></h3>   
+        </section>
+        <footer>
+            <div class="container">
+                <div class="social-icons">
+                  <a href="https://www.instagram.com"><img src="./images/iconmonstr-instagram-11-240.png" alt="Instagram"></a>
+                  <a href="https://www.github.com"><img src="./images/iconmonstr-github-3-240.png" alt="GitHub"></a>
+                  <a href="https://www.twitter.com"><img src="./images/iconmonstr-twitter-3-240.png" alt="Twitter"></a>
+                </div>
+                <div class="footer-text">
+                  <p>Reach out to me on my socials</p>
+                  <!--footer section to link my socials-->
+                </div>
+              </div>
+        </footer>
+        <script src="script.js"></script>
+      
     </body>
 </html>
